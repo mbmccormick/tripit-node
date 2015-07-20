@@ -1,7 +1,7 @@
 {
 	"name": "tripit-node",
-	"version": "0.1.0",
-	"description": "A Tripit API client library written in Node.js.",
+	"version": "0.1.1",
+	"description": "A TripIt API client library written in Node.js.",
 	"main": "tripit-api-client.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
 		"url": "https://github.com/mbmccormick/tripit-node"
 	},
 	"keywords": [
-		"Tripit",
+		"TripIt",
 		"Node"
 	],
 	"author": "Matt McCormick <matt@mbmccormick.com>",

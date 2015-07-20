@@ -11,7 +11,7 @@ app.get("/authorize", function (req, res) {
 		var token = results[0],
 			secret = results[1];
 		requestTokenSecrets[token] = secret;
-		res.redirect("https://www.tripit.com/oauth/authorize?oauth_token=" + token);
+		res.redirect("https://www.tripit.com/oauth/authorize?oauth_token=" + token + "&oauth_callback=YOUR_CALLBACK_URL");
 	}, function (error) {
 		res.send(error);
 	});

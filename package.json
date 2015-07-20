@@ -1,0 +1,29 @@
+{
+	"name": "tripit-node",
+	"version": "0.1.0",
+	"description": "A Tripit API client library written in Node.js.",
+	"main": "tripit-api-client.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mbmccormick/tripit-node"
+	},
+	"keywords": [
+		"Tripit",
+		"Node"
+	],
+	"author": "Matt McCormick <matt@mbmccormick.com>",
+	"license": "BSD",
+	"bugs": {
+		"url": "https://github.com/mbmccormick/tripit-node/issues"
+	},
+	"dependencies": {
+		"oauth": "~0.9.11",
+		"q": "~1.0.0"
+	},
+	"devDependencies": {
+		"express": "~3.4.8"
+	}
+}

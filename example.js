@@ -1,8 +1,8 @@
 var express = require("express"),
 	app = express();
 
-var TripitApiClient = require("tripit-node"),
-	client = new TripitApiClient("YOUR_CONSUMER_KEY", "YOUR_CONSUMER_SECRET");
+var TripItApiClient = require("tripit-node"),
+	client = new TripItApiClient("YOUR_CONSUMER_KEY", "YOUR_CONSUMER_SECRET");
 
 var requestTokenSecrets = {};
 

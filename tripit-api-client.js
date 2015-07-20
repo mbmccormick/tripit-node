@@ -1,7 +1,7 @@
 var OAuth = require("oauth").OAuth,
 	Q = require("q");
 
-function TripitApiClient(consumerKey, consumerSecret) {
+function TripItApiClient(consumerKey, consumerSecret) {
 	this.oauth = new OAuth(
 		"https://api.tripit.com/oauth/request_token",
 		"https://api.tripit.com/oauth/access_token",
@@ -13,7 +13,7 @@ function TripitApiClient(consumerKey, consumerSecret) {
 	);
 }
 
-TripitApiClient.prototype = {
+TripItApiClient.prototype = {
 	getRequestToken: function () {
 		var deferred = Q.defer();
 		this.oauth.getOAuthRequestToken(deferred.makeNodeResolver());
@@ -34,4 +34,4 @@ TripitApiClient.prototype = {
 	}
 };
 
-module.exports = TripitApiClient;
+module.exports = TripItApiClient;
